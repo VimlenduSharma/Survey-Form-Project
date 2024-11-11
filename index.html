@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Survey on Online Classes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <form id="survey_form">
+    <div id="heading">
+      <h1>Vantage Point Academy</h1>
+      <p>Engage. Motivate. Equip for Success</p>
+    </div>
+    <h2 id="subheading">Survey: Parents' Opinions on Online Classes</h2>
+
+    <div class="form-group">
+      <label for="parent_name">Name of the Parent</label>
+      <input type="text" id="parent_name" name="parent_name" required />
+    </div>
+
+    <div class="form-group">
+      <label for="student_name">Name of the Student</label>
+      <input type="text" id="student_name" name="student_name" required />
+    </div>
+
+    <div class="form-group">
+      <label for="student_class">Class</label>
+      <input type="number" id="student_class" name="student_class" min="1" max="12" required />
+    </div>
+
+    <div class="form-group">
+      <label for="section">Section</label>
+      <input type="text" id="section" name="section" maxlength="1" required />
+    </div>
+
+    <div class="form-group">
+      <label for="impression">Your impression about Online class</label>
+      <select id="impression" name="impression" required>
+        <option value="" hidden>Choose</option>
+        <option value="support">We support Online class</option>
+        <option value="oppose">We oppose Online class</option>
+        <option value="abstain">We have no desire to cast a vote</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="tdate">Date</label>
+      <input type="date" id="tdate" name="tdate" required />
+    </div>
+
+    <button type="submit" id="upload">Upload</button>
+  </form>
+</body>
+
+</html>

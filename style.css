@@ -1,0 +1,66 @@
+/* CSS for the Survey Form */
+
+#survey_form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #a5d5eb;
+    padding: 20px;
+    border: 2px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  #heading {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #b3e0f2;
+    padding: 20px;
+  }
+  
+  #subheading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select {
+    width: 96%;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    width: 100px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  div.form-group {
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  #upload {
+    margin-bottom: 20px;
+  }
+  
